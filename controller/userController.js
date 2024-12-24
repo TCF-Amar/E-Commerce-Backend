@@ -114,7 +114,7 @@ const adminLogin = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    // Check if both email and password are provided
+    // Check if both email and password are providedx
     if (!email || !password) {
       return res
         .status(400)
